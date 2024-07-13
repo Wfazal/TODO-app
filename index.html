@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>To-Do APP</title>
    <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body>
@@ -14,19 +15,20 @@
          <h2>To-Do List<img src="images/todoicon.png"></h2>
          <div class="bar">
             <input type="text" id="input-bar" placeholder="Add Text">
-            <button>+Add</button>
+            <button onclick="addTask()">+Add</button>
          </div>
-         <!-- <ul id="Listing">
-            <li class="TK-1">Task-1</li>
+         <ul id="list-container">
+            <!-- <li class="checked">Task-1</li>
             <li class="TK-2">Task-2</li>
-            <li class="TK-3">Task-3</li>
-         </ul> -->
+            <li class="TK-3">Task-3</li> -->
+         </ul>
       </div>
 
    </div>
 
 
-
+   
+ <script src="app.js" ></script>
 </body>
 
 </html>

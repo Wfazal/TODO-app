@@ -1,8 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT' 'Trebuchet MS', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', serif , inherit;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 .pcontainer {
@@ -65,6 +66,7 @@ button {
     border-radius: 40px;
     cursor: pointer;
     font-size: 18px;
+    font-weight: 100;
 }
 
 button:hover {
@@ -99,10 +101,35 @@ ul li::before {
     left: 8px;
 }
 
-.TK-1{
+.checked{
     text-decoration: line-through;
     color: #555;
-}
-.TK-1::before{
+} 
+
+.checked::before{
     background-image: url(images/checked.png);
+} 
+/* cross/X ka option ...... or isko span ma naam bhi dia hai */
+ul li span {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;    
 }
+ul li span:hover{
+    background: #d7eef7;
+}
+ul li span:active{
+    background: #dcf3fc;
+
+}
+
+
+
+
